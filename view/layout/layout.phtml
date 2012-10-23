@@ -1,0 +1,37 @@
+<?php 
+$this->headTitle()->setSeparator(' - ')
+                  ->setAutoEscape(false);
+
+$basePath = $this->basePath();
+$this->headLink()->appendStylesheet($basePath . '/somestyle.css');
+$this->headLink()->prependStylesheet($this->basePath() . 'css/demo.css');
+
+$this->headLink(array(
+            'rel'  => 'shortcut icon',
+            'type' => 'image/vnd.microsoft.icon',
+            'href' => $basePath . '/images/favicon.ico',
+        ));
+
+echo $this->doctype();
+?>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <?php echo $this->headTitle('Yep, title goes here') ?>
+
+    <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+
+    <!-- Le styles -->
+    <?php echo $this->headLink() ?>
+    <!-- Scripts -->
+    <?php echo $this->headScript() ?>
+</head>
+<body>
+<a class="brand" href="<?php echo $this->url('home') ?>">Skeleton Application</a> 
+<a href="<?php echo $this->url('home') ?>">Home</a>
+<!-- Top of content -->
+<?php echo $this->content; ?>
+<!-- End of content -->
+</body>
+</html>
