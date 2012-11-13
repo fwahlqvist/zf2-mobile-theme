@@ -53,9 +53,7 @@
         
         <!-- Scripts -->
         <?php echo $this->headScript() ?>
-        
-
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+    
     </head>
 
     <body>
@@ -67,7 +65,7 @@
             <![endif]-->
 
             
-            <div data-role="header"> 
+            <div data-role="header" data-position="fixed" data-id="header"> 
                 <h1>Wahlqvist Web</h1>    
             </div>
             
@@ -79,12 +77,12 @@
                 </ul>
             </div>
             
-            
-            <!-- Top of content -->
-                <?php echo $this->content; ?>
-            <!-- End of content -->
-        
-            <div data-role="footer" data-position="fixed"> 
+                <div data-role="content">
+                    <!-- Top of content -->
+                        <?php echo $this->content; ?>
+                    <!-- End of content -->
+                </div>
+            <div data-role="footer" data-position="fixed" data-id="footer"> 
                 <h4>Wahlqvist Web</h4> 
             </div> 
                
