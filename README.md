@@ -1,9 +1,9 @@
-ZF2MobileTheme
+zf2-mobile-theme
 =======
 Version 0.0.1 Created by Fredrik Wahlqvist
 
 Introduction
 ------------
 
-ZF2MobileTheme is a ZF2 mobile theme that uses jquerymobile (via google CDN) to render the site. 
+zf2-mobile-theme is a ZF2 mobile theme that uses jquerymobile (via google CDN) to render the site. 
 

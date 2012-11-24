@@ -1,11 +1,11 @@
 {
-    "name": "fwahlqvist/ZF2MobileTheme",
+    "name": "fwahlqvist/zf2-mobile-theme",
     "description": "ZF2 Mobile theme to use with Ze-Theme, using jqueryMobile from google CDN",
     "type": "library",
     "keywords": [
         "zf2"
     ],
-    "homepage": "http://github.com/fwahlqvist/ZF2MobileTheme",
+    "homepage": "http://github.com/fwahlqvist/zf2-mobile-theme",
     "authors": [
         {
             "name": "Fredrik Wahlqvist",
