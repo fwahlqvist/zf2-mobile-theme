@@ -1,0 +1,26 @@
+{
+    "name": "fwahlqvist/ZF2MobileTheme",
+    "description": "ZF2 Mobile theme to use with Ze-Theme, using jqueryMobile from google CDN",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "http://github.com/fwahlqvist/ZF2MobileTheme",
+    "authors": [
+        {
+            "name": "Fredrik Wahlqvist",
+            "email": "fwahlqvist@gmail.com",
+            "homepage": "http://wahlqvist.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "zendexperts/ze-theme": "dev-master"
+    },
+    "extra": {
+        "installer-paths": {
+            "themes/{$name}": ["vendor/package"]
+        }
+    }
+}
