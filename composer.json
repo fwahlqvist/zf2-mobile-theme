@@ -18,10 +18,5 @@
         "zendframework/zendframework": "2.*",
 		"composer/installers": "*",
         "zendexperts/ze-theme": "dev-master"
-    },
-    "extra": {
-        "installer-paths": {
-            "themes/{$name}": ["themes/package"]
-        }
     }
 }
