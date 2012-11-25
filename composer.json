@@ -21,7 +21,7 @@
     },
     "extra": {
         "installer-paths": {
-            "themes/{$name}": ["vendor/package"]
+            "themes/{$name}": ["themes/package"]
         }
     }
 }
